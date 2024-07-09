@@ -1,0 +1,1278 @@
+* {
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+}
+
+
+.navbar li {
+    display: inline-block;
+    list-style: none;
+    margin: 16px 16px;
+
+}
+
+.navbar {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 999999;
+    /* height: 50px; */
+    background-color: black;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+}
+
+.li1 {
+    width: 50%;
+    text-align: end;
+}
+
+e {
+
+
+    padding: 10px;
+    width: 20px;
+
+}
+
+#space input {
+    padding-left: 20px;
+    background-color: rgb(10, 9, 9);
+    border: 1px solid rgb(216, 203, 203);
+    color: white;
+    height: 20px;
+}
+
+#space i {
+    position: absolute;
+    border-radius: 2px;
+    right: 300px;
+    top: 20px;
+    color: #e4d7d7;
+}
+
+
+#sign {
+    background-color: blue;
+    border: 1px solid blue;
+    padding: 7px;
+    border-radius: 8px;
+
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 94vh;
+    /* Adjust to cover the entire viewport */
+    overflow: hidden;
+}
+
+#video-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    margin-top: -84px;
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    z-index: 1;
+    /* Ensure content is above the video */
+}
+
+.content h1 {
+    font-size: 3rem;
+}
+
+.content p {
+    font-size: 1.5rem;
+}
+
+.first {
+    width: 25%;
+    margin: 10px;
+
+}
+
+.second {
+    width: 25%;
+    margin: 10px;
+}
+
+.imagesss {
+    display: flex;
+}
+
+.Thrid {
+    width: 25%;
+    margin: 10px;
+}
+
+.container1 {
+    overflow-x: scroll;
+}
+
+.container1::-webkit-scrollbar {
+    opacity: 0;
+
+}
+
+.container2::-webkit-scrollbar {
+    opacity: 0;
+
+}
+
+.container3::-webkit-scrollbar {
+    opacity: 0;
+
+}
+
+.container4::-webkit-scrollbar {
+    opacity: 0;
+
+}
+
+.container2 {
+    overflow-x: scroll;
+
+}
+
+.container3 {
+    overflow-x: scroll;
+}
+
+.container4 {
+    overflow-x: scroll;
+
+}
+
+
+
+.fourth {
+    width: 25%;
+    margin: 10px;
+}
+
+.cont h3 i {
+    /* height: 2px;x`
+    width: 2px; */
+    font-size: 14px;
+    color: #554a4a;
+}
+
+.footer img {
+    height: 60px;
+    filter: invert(1);
+
+}
+
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    background-color: black;
+    padding: 30px 100px;
+    /* padding-top: 13px; */
+    height: 10vh;
+}
+
+.foot {
+    display: flex;
+}
+
+.mainlogo {
+    margin: auto;
+    width: 20%;
+}
+
+.watch {
+    text-align: center;
+    font-size: 28px;
+    margin: 0px;
+}
+
+.watch p {
+    font-size: 17px;
+    margin: 0px;
+    color: gray;
+}
+
+.watch h1 {
+    margin: 0px;
+
+
+}
+
+.contlogo1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 33px;
+}
+
+.contlogo2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+
+
+}
+
+.wg h1 {
+    margin: 0px;
+    text-align: center;
+    font-size: 31px;
+}
+
+.wg p {
+    text-align: center;
+    color: blue;
+    font-size: 20px
+}
+
+.contlogo3 {
+    display: flex;
+    justify-content: center;
+
+}
+
+.qa .qah1 {
+    text-align: center;
+}
+
+.q1 {
+    display: flex;
+    justify-content: center;
+
+    flex-direction: column;
+    font-size: 10px;
+    color: rgba(7, 1, 1, 0.76)
+        /* width: 100%; */
+}
+
+.quest1 {
+    margin: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 99%;
+    position: relative;
+    left: 0px;
+
+}
+
+.quest1 h1 {
+    padding: 10px;
+    border-bottom: 1px solid gray;
+    width: 50%;
+}
+
+.quest1 i {
+    position: relative;
+    right: 250px;
+    font-size: 30px;
+}
+
+.copy {
+    margin-top: 80px;
+    color: rgba(54, 50, 50, 0.788);
+    height: 32px;
+}
+
+.policy {
+    color: rgb(83, 79, 79);
+}
+
+.foot h4 {
+    margin-top: 12px;
+}
+
+.cont5 {
+    margin-top: 7px;
+}
+
+/* ------------media */
+@media (max-width:1200px) {
+    .quest1 i {
+        position: relative;
+        right: 220px;
+        font-size: 30px;
+    }
+}
+
+@media (max-width:1150px) {
+    .wg p {
+        text-align: center;
+        color: blue;
+        font-size: 23px;
+        margin: 14px 0;
+    }
+
+    .quest1 {
+        margin: 10px;
+        display: flex;
+        justify-content: center;
+        width: 99%;
+        position: relative;
+        left: 0px;
+    }
+
+    .quest1 i {
+        position: relative;
+        right: 50px;
+        font-size: 30px;
+    }
+
+    .qa .qah1 {
+        text-align: center;
+        margin: 22px;
+    }
+}
+
+@media (max-width: 1050px) {
+    .video-container {
+        position: relative;
+        width: 100%;
+        height: 90vh;
+        overflow: hidden;
+    }
+}
+
+@media (max-width: 950px) {
+    .video-container {
+        position: relative;
+        width: 100%;
+        height: 87vh;
+        overflow: hidden;
+
+
+    }
+}
+
+@media (max-width:900px) {
+    .video-container {
+        position: relative;
+        width: 100%;
+        height: 87vh;
+        overflow: hidden;
+
+    }
+
+    #video-background {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        object-fit: cover;
+        margin-top: -57px;
+    }
+}
+
+@media (max-width:850px) {
+    .contlogo1 {
+        display: flex;
+        justify-content: center;
+        margin-top: 33px;
+        flex-wrap: wrap;
+    }
+
+    .cont h3 {
+        margin-top: 15px;
+    }
+
+    .btn {
+
+        margin-left: 10px;
+        width: 30%;
+
+    }
+
+    .footer img {
+        height: 54px;
+        filter: invert(1);
+        width: 51%;
+    }
+
+}
+
+@media (max-width:800px) {
+    .foot {
+        display: flex;
+        width: 30%;
+    }
+
+    .contlogo1 img {
+        width: 138px;
+    }
+
+    .contlogo2 img {
+        width: 130px;
+    }
+
+    .watch p {
+        font-size: 17px;
+        /* margin: 0px; */
+        color: gray;
+        margin-top: 18px;
+    }
+
+    .quest1 i {
+        position: relative;
+        right: 30px;
+        font-size: 30px;
+    }
+}
+
+@media (max-width:750px) {
+    .watch h1 {
+        margin: 0px;
+        font-size: 44px;
+    }
+    .cont5 {
+        margin-top: 7px;
+        font-size: 15px;
+    }
+    .contlogo1 {
+        display: flex;
+        justify-content: center;
+        margin-top: 16px;
+        flex-wrap: wrap;
+    }
+    .quest1 h1 {
+        padding: 10px;
+        border-bottom: 1px solid gray;
+        width: 55%;
+    }
+    .quest1 {
+        margin: 10px;
+        display: flex;
+        justify-content: center;
+        width: 97%;
+        position: relative;
+        left: 0px;
+    }
+    #sign {
+        background-color: blue;
+        border: 1px solid blue;
+        padding: 4px;
+        border-radius: 8px;
+    }
+    #space input {
+        padding-left: 20px;
+        background-color: rgb(10, 9, 9);
+        border: 1px solid rgb(216, 203, 203);
+        color: white;
+        height: 20px;
+        width: 110px;
+    }
+    #space i {
+        position: absolute;
+        border-radius: 2px;
+        right: 260px;
+        top: 20px;
+        color: #e4d7d7;
+    }
+    .navbar {
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        z-index: 999999;
+        /* height: 50px; */
+        background-color: black;
+        text-align: center;
+        display: flex;
+        justify-content: space-around;
+    }
+}
+@media (max-width:700px) {
+    #space i {
+        position: absolute;
+        border-radius: 2px;
+        right: 255px;
+        top: 20px;
+        color: #e4d7d7;
+    }
+    .cont5 {
+        margin-top: 7px;
+        font-size: 14px;
+    }
+    .watch h1 {
+        margin: 0px;
+        font-size: 41px;
+    }
+    .contlogo1 {
+        display: flex;
+        justify-content: center;
+        margin-top: 16px;
+        flex-wrap: wrap;
+        width: 97%;
+        
+    }
+    .contlogo2 img {
+        width: 130px;
+        height: 15vh;
+    }
+    .quest1 h1 {
+        padding: 10px;
+        border-bottom: 1px solid gray;
+        width: 61%;
+    }
+    .footer {
+        display: flex;
+        justify-content: space-evenly;
+        color: white;
+        background-color: black;
+        padding: 30px 78px;
+        /* padding-top: 13px; */
+        height: 10vh;
+    }
+}
+@media (max-width:650px){
+    .navbar {
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        z-index: 999999;
+        /* height: 50px; */
+        background-color: black;
+        text-align: center;
+        display: flex;
+        justify-content: flex-end;
+    }
+    #space i {
+        position: absolute;
+        border-radius: 2px;
+        right: 234px;
+        top: 20px;
+        color: #e4d7d7;
+    }
+    .footer {
+        display: flex;
+        justify-content: space-evenly;
+        color: white;
+        background-color: black;
+        padding: 30px 49px;
+        /* padding-top: 13px; */
+        height: 8vh;
+    }
+    .watch h1 {
+        margin: 0px;
+        font-size: 39px;
+    }
+    .watch p {
+        font-size: 15px;
+        /* margin: 0px; */
+        color: gray;
+        margin-top: 18px;
+    }
+    .contlogo2 {
+        display: flex;
+        justify-content: center;
+        margin-top: 15px;
+        flex-wrap: wrap;
+    }
+    .contlogo2 img {
+        width: 122px;
+        height: 16vh;
+    }
+    .wg h1 {
+        margin: 0px;
+        text-align: center;
+        font-size: 29px;
+    }
+    .wg p {
+        text-align: center;
+        color: blue;
+        font-size: 21px;
+        margin: 13px 0;
+    }
+    .contlogo2 img {
+        width: 118px;
+        height: 17vh;
+    }
+    .contlogo3 {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .quest1 h1 {
+        padding: 10px;
+        border-bottom: 1px solid gray;
+        width: 65%;
+    }
+    .navbar {
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        z-index: 999999;
+        /* height: 50px; */
+        background-color: black;
+        text-align: center;
+        display: flex;
+        justify-content: space-between;
+    }
+    .li1 {
+        width: 33%;
+        text-align: end;
+    }
+    #sign {
+        background-color: blue;
+        border: 1px solid blue;
+        padding: 4px;
+        border-radius: 8px;
+        width: 20px;
+        margin-right: 18px;
+    }
+    #space i {
+        position: absolute;
+        border-radius: 2px;
+        right: 252px;
+        top: 20px;
+        color: #e4d7d7;
+    }
+}
+
+@media (max-width:600px){
+    .footer {
+        display: flex;
+        justify-content: space-evenly;
+        color: white;
+        background-color: black;
+        padding: 30px 25px;
+        /* padding-top: 13px; */
+        height: 9vh;
+    }
+    .mainlogo {
+        margin: auto;
+        width: 27%;
+    }
+    .watch h1 {
+        margin: 0px;
+        font-size: 35px;
+    }
+    .watch p {
+        font-size: 14px;
+        /* margin: 0px; */
+        color: gray;
+        margin-top: 18px;
+    }
+    .contlogo1 {
+        display: flex;
+        justify-content: center;
+        margin-top: 15px;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .contlogo1 img {
+        width: 133px;
+        height: 14vh;
+    }
+    .contlogo2 img {
+        width: 114px;
+        height: 13vh;
+    }
+    .wg h1 {
+        margin: 0px;
+        text-align: center;
+        font-size: 28px;
+    }
+    .wg p {
+        text-align: center;
+        color: blue;
+        font-size: 19px;
+        margin: 13px 0;
+    }
+    .q1 {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        font-size: 8px;
+        color: rgba(7, 1, 1, 0.76) /* width: 100%; */;
+    }
+}
+@media (max-width:550px) {
+    #space input {
+        padding-left: 20px;
+        background-color: rgb(10, 9, 9);
+        border: 1px solid rgb(216, 203, 203);
+        color: white;
+        height: 19px;
+        width: 110px;
+        margin-right: -15px;
+    }
+    #space i {
+        position: absolute;
+        border-radius: 2px;
+        right: 238px;
+        top: 20px;
+        color: #e4d7d7;
+    }
+    .copy {
+        margin-top: 80px;
+        color: rgba(54, 50, 50, 0.788);
+        height: 35px;
+        text-align: center;
+    }
+    .policy {
+        color: rgb(83, 79, 79);
+        text-align: center;
+    }
+    .footer {
+        display: flex;
+        justify-content: space-evenly;
+        color: white;
+        background-color: black;
+        padding: 30px 25px;
+        /* padding-top: 13px; */
+        height: 9vh;
+    }
+    .foot h4 {
+        margin-top: 8px;
+    }
+}
+@media (max-width:500px) {
+    .li1 {
+        width: 37%;
+        text-align: end;
+    }
+    .foot {
+        display: flex;
+        width: 42%;
+    }
+    .watch h1 {
+        margin: 0px;
+        font-size: 31px;
+    }
+    .watch p {
+        font-size: 12px;
+        /* margin: 0px; */
+        color: gray;
+        margin-top: 11px;
+    }
+    .contlogo1 img {
+        width: 128px;
+        height: 14vh;
+    }
+    .contlogo2 img {
+        width: 109px;
+        height: 12vh;
+    }
+    .wg h1 {
+        margin: 0px;
+        text-align: center;
+        font-size: 26px;
+    }
+    .wg p {
+        text-align: center;
+        color: blue;
+        font-size: 17px;
+        margin: 13px 0;
+    }
+    .contlogo3 img{
+        
+            width: 90px;
+            height: 18vh;
+        
+    }
+    .qa .qah1 {
+        text-align: center;
+        margin: 14px;
+        font-size: 28px;
+    }
+    .q1 {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        font-size: 8px;
+        color: rgba(7, 1, 1, 0.76) /* width: 100%; */;
+    }
+    .copy {
+        margin-top: 50px;
+        color: rgba(54, 50, 50, 0.788);
+        height: 33px;
+        text-align: center;
+        font-size: 15px;
+    }
+    .policy {
+        color: rgb(83, 79, 79);
+        text-align: center;
+        font-size: 15px;
+    }
+    
+}
+@media (max-width:450px) {
+    .li1 {
+        width: 39%;
+        text-align: end;
+        font-size: 16px;
+    }
+    .navbar li {
+        display: inline-block;
+        list-style: none;
+        margin: 16px 5px;
+        /* width: 109px; */
+    }
+    #sign {
+        background-color: blue;
+        border: 1px solid blue;
+        padding: 4px;
+        border-radius: 8px;
+        font-size: 13px;
+    }
+    #space i {
+        position: absolute;
+        border-radius: 2px;
+        right: 205px;
+        top: 20px;
+        color: #e4d7d7;
+    }
+    #space input {
+        padding-left: 20px;
+        background-color: rgb(10, 9, 9);
+        border: 1px solid rgb(216, 203, 203);
+        color: white;
+        height: 19px;
+        width: 111px;
+        margin-right: -4px;
+    }
+    .cont h3 {
+        margin-top: 13px;
+        font-size: 16px;
+    }
+    .foot {
+        display: flex;
+        width: 53%;
+    }
+    .btn {
+        margin-left: 10px;
+        width: 31%;
+        font-size: 14px;
+    }
+    .mainlogo {
+        margin: auto;
+        width: 36%;
+    }
+    .watch h1 {
+        margin: 0px;
+        font-size: 29px;
+    }
+    .watch p {
+        font-size: 11px;
+        /* margin: 0px; */
+        color: gray;
+        margin-top: 10px;
+    }
+    .contlogo1 img {
+        width: 117px;
+        height: 13vh;
+    }
+    .contlogo2 img {
+        width: 101px;
+        height: 11vh;
+    }
+        .wg h1 {
+        margin: 0px;
+        text-align: center;
+        font-size: 24px;
+    }
+    .wg p {
+        text-align: center;
+        color: blue;
+        font-size: 15px;
+        margin: 13px 0;
+    }
+    .contlogo3 img {
+        width: 87px;
+        height: 16vh;
+    }
+    .qa .qah1 {
+        text-align: center;
+        margin: 14px;
+        font-size: 26px;
+    }
+    .q1 {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        font-size: 7px;
+        color: rgba(7, 1, 1, 0.76) /* width: 100%; */;
+    }
+    .copy {
+        margin-top: 50px;
+        color: rgba(54, 50, 50, 0.788);
+        height: 33px;
+        text-align: center;
+        font-size: 14px;
+    }
+    .policy {
+        color: rgb(83, 79, 79);
+        text-align: center;
+        font-size: 14px;
+    }
+    .footer {
+        display: flex;
+        justify-content: space-evenly;
+        color: white;
+        background-color: black;
+        padding: 17px 25px;
+        /* padding-top: 13px; */
+        height: 9vh;
+    }
+}
+@media (max-width:400px) {
+    .li1 {
+        width: 35%;
+        text-align: end;
+        font-size: 14px;
+    }
+    #sign {
+        background-color: blue;
+        border: 1px solid blue;
+        padding: 4px;
+        border-radius: 8px;
+        font-size: 12px;
+    }
+    #space i {
+        position: absolute;
+        border-radius: 2px;
+        right: 202px;
+        top: 20px;
+        color: #e4d7d7;
+    }
+    .cont5 {
+        margin-top: 8px;
+        font-size: 12px;
+    }
+    .foot h4 {
+        margin-top: 8px;
+        font-size: 14px;
+    }
+    .btn {
+        margin-left: 10px;
+        width: 31%;
+        font-size: 12px;
+    }
+     .btn button{
+        font-size: 11px;
+     }
+     .mainlogo img{
+        width: 92%;
+     }
+     .watch h1 {
+        margin: 0px;
+        font-size: 25px;
+    }
+    .watch p {
+        font-size: 10px;
+        /* margin: 0px; */
+        color: gray;
+        margin-top: 10px;
+    }
+    .contlogo1 img {
+        width: 111px;
+        height: 12vh;
+    }
+    .contlogo2 img {
+        width: 101px;
+        height: 10vh;
+    }
+    .wg h1 {
+        margin: 0px;
+        text-align: center;
+        font-size: 22px;
+    }
+    .wg p {
+        text-align: center;
+        color: blue;
+        font-size: 14px;
+        margin: 13px 0;
+    }
+    .contlogo3 img {
+        width: 84px;
+        height: 16vh;
+    }
+    .qa .qah1 {
+        text-align: center;
+        margin: 14px;
+        font-size: 23px;
+    }
+    .q1 {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        font-size: 6px;
+        color: rgba(7, 1, 1, 0.76) /* width: 100%; */;
+    }
+    .quest1 i {
+        position: relative;
+        right: 30px;
+        font-size: 25px;
+    }
+    .copy {
+        margin-top: 50px;
+        color: rgba(54, 50, 50, 0.788);
+        height: 33px;
+        text-align: center;
+        font-size: 12px;
+    }
+    .policy {
+        color: rgb(83, 79, 79);
+        text-align: center;
+        font-size: 13px;
+    }
+    
+}
+@media (max-width:350px) {
+    .li1 {
+        width: 34%;
+        text-align: end;
+        font-size: 13px;
+    }
+    #space input {
+        padding-left: 20px;
+        background-color: rgb(10, 9, 9);
+        border: 1px solid rgb(216, 203, 203);
+        color: white;
+        height: 19px;
+        width: 86px;
+        margin-right: -9px;
+    }
+    #space i {
+        position: absolute;
+        border-radius: 2px;
+        right: 168px;
+        top: 20px;
+        color: #e4d7d7;
+    }
+    #sign {
+        background-color: blue;
+        border: 1px solid blue;
+        padding: 4px;
+        border-radius: 8px;
+        font-size: 11px;
+    }
+    .cont h3 {
+        margin-top: 13px;
+        font-size: 15px;
+    }
+    .foot {
+        display: flex;
+        width: 70%;
+    }
+    .cont5 {
+        margin-top: 8px;
+        font-size: 11px;
+    }
+    .watch h1 {
+        margin: 0px;
+        font-size: 23px;
+    }
+    .watch p {
+        font-size: 9px;
+        /* margin: 0px; */
+        color: gray;
+        margin-top: 10px;
+    }    .contlogo1 img {
+        width: 104px;
+        height: 11vh;
+    }
+    .contlogo2 img {
+        width: 96px;
+        height: 10vh;
+    }
+    .wg h1 {
+        margin: 0px;
+        text-align: center;
+        font-size: 20px;
+    }
+    .wg p {
+        text-align: center;
+        color: blue;
+        font-size: 12px;
+        margin: 13px 0;
+    }
+    .contlogo3 img {
+        width: 81px;
+        height: 15vh;
+    }
+    .qa .qah1 {
+        text-align: center;
+        margin: 14px;
+        font-size: 21px;
+    }
+    .quest1 h1 {
+        padding: 10px;
+        border-bottom: 1px solid gray;
+        width: 69%;
+    }
+    .quest1 i {
+        position: relative;
+        right: 20px;
+        font-size: 23px;
+    }
+    .copy {
+        margin-top: 40px;
+        color: rgba(54, 50, 50, 0.788);
+        height: 33px;
+        text-align: center;
+        font-size: 11px;
+    }
+    .policy {
+        color: rgb(83, 79, 79);
+        text-align: center;
+        font-size: 11px;
+    }
+}
+@media (max-width:320px) {
+    .li1 {
+        width: 33%;
+        text-align: end;
+        font-size: 12px;
+    }
+    #sign {
+        background-color: blue;
+        border: 1px solid blue;
+        padding: 4px;
+        border-radius: 8px;
+        width: 20px;
+        margin-right: 3px;
+    }
+    #space i {
+        position: absolute;
+        border-radius: 2px;
+        right: 152px;
+        top: 20px;
+        color: #e4d7d7;
+    }
+    .footer {
+        display: flex;
+        justify-content: space-evenly;
+        color: white;
+        background-color: black;
+        padding: 19px 11px;
+        /* padding-top: 13px; */
+        height: 9vh;
+    }
+    .foot h4 {
+        margin-top: 8px;
+        font-size: 13px;
+    }
+    .cont5 {
+        margin-top: 8px;
+        font-size: 10px;
+    }
+    .btn {
+        margin-left: 10px;
+        width: 31%;
+        font-size: 11px;
+    }
+    .watch h1 {
+        margin: 0px;
+        font-size: 20px;
+    }
+    .watch p {
+        font-size: 8px;
+        /* margin: 0px; */
+        color: black;
+        margin-top: 10px;
+    }
+    .contlogo1 img {
+        width: 99px;
+        height: 10vh;
+    }
+    .contlogo2 img {
+        width: 96px;
+        height: 9vh;
+    }
+    .wg h1 {
+        margin: 0px;
+        text-align: center;
+        font-size: 19px;
+    }
+    .wg p {
+        text-align: center;
+        color: blue;
+        font-size: 11px;
+        margin: 13px 0;
+    }
+    .contlogo3 img {
+        width: 81px;
+        height: 15vh;
+    }
+    .qa .qah1 {
+        text-align: center;
+        margin: 14px;
+        font-size: 19px;
+    }
+    .q1 {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        font-size: 5px;
+        color: rgba(7, 1, 1, 0.76) /* width: 100%; */;
+    }
+    .copy {
+        margin-top: 40px;
+        color: rgba(54, 50, 50, 0.788);
+        height: 33px;
+        text-align: center;
+        font-size: 10px;
+    }
+    .policy {
+        color: rgb(83, 79, 79);
+        text-align: center;
+        font-size: 10px;
+    }
+}
+
+
+    
+
+
+
+
+    
+
+
+
+
+
+
+
+    
+
+    
+
+    
+
+
+
+
+
+    
+
+
+    
+
+
