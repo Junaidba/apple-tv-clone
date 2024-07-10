@@ -34,7 +34,9 @@
 .li1 {
     width: 50%;
     text-align: end;
+    font-size: 20px;
 }
+
 
 e {
 
@@ -49,23 +51,24 @@ e {
     background-color: rgb(10, 9, 9);
     border: 1px solid rgb(216, 203, 203);
     color: white;
-    height: 20px;
+    height: 28px;
+    border-radius: 4px;
 }
 
 #space i {
     position: absolute;
     border-radius: 2px;
     right: 300px;
-    top: 20px;
+    top: 24px;
     color: #e4d7d7;
 }
 
 
 #sign {
-    background-color: blue;
-    border: 1px solid blue;
+    background-color: #007aff;
+    border: 1px solid #007aff;
     padding: 7px;
-    border-radius: 8px;
+    border-radius: 6px;
 
 }
 
@@ -109,12 +112,14 @@ e {
 .first {
     width: 25%;
     margin: 10px;
+    border-radius: 12px;
 
 }
 
 .second {
     width: 25%;
     margin: 10px;
+    border-radius: 12px;
 }
 
 .imagesss {
@@ -124,6 +129,7 @@ e {
 .Thrid {
     width: 25%;
     margin: 10px;
+    border-radius: 12px;
 }
 
 .container1 {
@@ -169,6 +175,7 @@ e {
 .fourth {
     width: 25%;
     margin: 10px;
+    border-radius: 12px;
 }
 
 .cont h3 i {
