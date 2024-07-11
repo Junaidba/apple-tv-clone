@@ -56,16 +56,15 @@ e {
     border-radius: 4px;
 }
 
-#space i {
+
+#space i{
     position: absolute;
     border-radius: 2px;
-    right: 291px;
-    top: 24px;
+    right: 302px;
+    top: 23px;
     color: #e4d7d7;
 }
-
-
-#sign {
+#sign{
     background-color: #007aff;
     border: 1px solid #007aff;
     padding: 7px;
@@ -79,6 +78,9 @@ e {
     height: 94vh;
     /* Adjust to cover the entire viewport */
     overflow: hidden;
+}
+.video-container img{
+    width: 100%;
 }
 
 #video-background {
@@ -754,7 +756,7 @@ e {
         width: 45%;
         text-align: end;
     }
-}
+
     #space i {
         position: absolute;
         border-radius: 2px;
@@ -785,7 +787,7 @@ e {
         margin-top: 8px;
     }
    
-
+}
 @media (max-width:500px) {
     .li1 {
         width: 37%;
